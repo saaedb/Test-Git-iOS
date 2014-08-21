@@ -21,6 +21,7 @@
 		20B62E0D19A597E700BA547B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B62DEF19A597E700BA547B /* UIKit.framework */; };
 		20B62E1519A597E700BA547B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20B62E1319A597E700BA547B /* InfoPlist.strings */; };
 		20B62E1719A597E700BA547B /* Git_Hub_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B62E1619A597E700BA547B /* Git_Hub_TestTests.m */; };
+		20B62E2219A59DAD00BA547B /* DDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B62E2119A59DAD00BA547B /* DDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		20B62E1219A597E700BA547B /* Git Hub TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git Hub TestTests-Info.plist"; sourceTree = "<group>"; };
 		20B62E1419A597E700BA547B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20B62E1619A597E700BA547B /* Git_Hub_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_Hub_TestTests.m; sourceTree = "<group>"; };
+		20B62E2019A59DAD00BA547B /* DDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTest.h; sourceTree = "<group>"; };
+		20B62E2119A59DAD00BA547B /* DDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				20B62DFB19A597E700BA547B /* DDAppDelegate.m */,
 				20B62DFD19A597E700BA547B /* Main.storyboard */,
 				20B62E0019A597E700BA547B /* DDViewController.h */,
+				20B62E2019A59DAD00BA547B /* DDTest.h */,
+				20B62E2119A59DAD00BA547B /* DDTest.m */,
 				20B62E0119A597E700BA547B /* DDViewController.m */,
 				20B62E0319A597E700BA547B /* Images.xcassets */,
 				20B62DF219A597E700BA547B /* Supporting Files */,
@@ -253,6 +258,7 @@
 				20B62DFC19A597E700BA547B /* DDAppDelegate.m in Sources */,
 				20B62E0219A597E700BA547B /* DDViewController.m in Sources */,
 				20B62DF819A597E700BA547B /* main.m in Sources */,
+				20B62E2219A59DAD00BA547B /* DDTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

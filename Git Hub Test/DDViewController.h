@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface DDViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *labelMessage;
 
 @end
